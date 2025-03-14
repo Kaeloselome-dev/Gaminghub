@@ -38,7 +38,7 @@ input:valid ~ label{
     height: 60px;
     padding:0 35px 0 5px;
     font-size: 1rem;
-    color: rgb(0, 0,0);
+    color: rgb(0, 0, 0);
     border: 2px solid #000;
     outline: none;
     background: transparent;
@@ -50,7 +50,7 @@ input:valid ~ label{
     top: 20%;
     right: 8px;
     font-size: 1.2rem;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     background-color: transparent;
 }
 
@@ -152,7 +152,7 @@ button:hover {
 
 input{
     background-color: transparent;
-    color: white;
+    color: black;
     
 }
 
