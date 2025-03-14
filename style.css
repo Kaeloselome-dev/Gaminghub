@@ -108,7 +108,7 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 2rem 3rem;
+    padding: 10px;
     border-radius: 20px;
     /*border: 2px solid purple;*/
     backdrop-filter: blur(55px);
