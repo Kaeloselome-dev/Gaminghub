@@ -1,0 +1,29 @@
+body {
+    background: linear-gradient(black, #0dae2d, rgb(0, 0, 0));
+    color: rgb(0, 0, 0);
+}
+.hero-section {
+    background: url('hero-image.jpg') no-repeat center center/cover;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 50px;
+}
+.hero-content {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+}
+.card {
+    transition: transform 0.3s;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+.footer {
+    background-color: #222;
+    padding: 20px 0;
+}

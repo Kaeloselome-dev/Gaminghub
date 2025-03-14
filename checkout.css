@@ -1,0 +1,22 @@
+body {
+    background-color: #121212;
+    color: white;
+}
+.container {
+    max-width: 600px;
+    margin-top: 50px;
+    padding: 20px;
+    background: #222;
+    border-radius: 10px;
+}
+.nav-item {
+    padding: 10px;
+    border-radius: 5px;
+    background: transparent;
+    margin: 5px;
+}
+.btn btn-success w-100{
+    background-color: #28a745;
+    border-color: #28a745;
+
+}

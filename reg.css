@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(#0dae2d, rgb(0, 0, 0));
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+section {
+    position: relative;
+    max-width: 400px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 3rem;
+    border-radius: 20px;
+    border: 2px solid black;
+    backdrop-filter: blur(55px);
+    background-color: transparent;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+    margin:0 auto  20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: auto;
+    margin: 0 auto 20px auto; /* Centers horizontally 
+}*/
+
+
+h1 {
+    color: white;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.Reg-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #000;
+    border-bottom: 2px solid cornflowerblue;
+    background: transparent;
+    color: white;
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none;
+}
+
+.Reg-container input::placeholder {
+    color: rgb(0, 0, 0);
+}
+
+button {
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 40px;
+    outline: none;
+    cursor: pointer;
+    background-color: rgb(42, 110, 238);
+    font-size: 1rem;
+    font-weight: 600;
+    transition: all 0.5s ease;
+}
+
+button:hover {
+    background-color: rgb(19, 80, 194);
+}
+
+div ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+    text-align: center;
+}
+
+div ul li {
+    margin: 5px 0;
+}
+
+div ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+div ul li a:hover {
+    text-decoration: underline;
+}
+
+.div ul li a img{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+/*button tsa di account*/
+
+.auth-logos {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between logos */
+    margin-top: 20px;
+}
+
+.auth-logos a {
+    display: inline-block;
+}
+
+.auth-logos img {
+    width: 40px; /* Adjust logo size */
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.auth-logos img:hover {
+    transform: scale(1.2);
+}
+.btnn{
+    color: white;
+    background-color: rgb(42, 110, 238);
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 40px;
+    outline: none;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: all 0.5s ease;
+}
