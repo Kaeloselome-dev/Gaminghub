@@ -19,7 +19,7 @@ body{
     border: 2px solid #000;
     border-bottom: 2px solid cornflowerblue;
     background: transparent;
-    color: black;
+    color: rgb(0, 0, 0);
     border-radius: 5px;
     font-size: 1rem;
     outline: none;
@@ -50,8 +50,8 @@ input:valid ~ label{
     top: 20%;
     right: 8px;
     font-size: 1.2rem;
-    color: rgb(255, 255, 255);
-    background-color: rgb(0; 0; 0);
+    color: rgb(255, 251, 251);
+    background-color: rgb(0, 0, 0);
 }
 
 .forgot{
@@ -108,12 +108,13 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px;
+    padding:10px;
     border-radius: 20px;
     /*border: 2px solid purple;*/
     backdrop-filter: blur(55px);
     background-color: transparent;
     border: 2px solid black;
+
 }
 
 button {
@@ -151,8 +152,8 @@ button:hover {
 }/*ke feletse fa*/
 
 input{
-    background-color: rgb(255, 255, 255);
-    color: white;
+    background-color: rgb(255, 254, 254);
+    color: rgb(255, 252, 252);
     
 }
 
@@ -163,7 +164,7 @@ input{
     margin-bottom: 20px;
 }
 .Password{
-    color: white;
+    color:rgb(255, 255, 255);
 }
 
 .container{
@@ -171,7 +172,7 @@ input{
     padding: 10px;
     margin-bottom: 10px;
     border-bottom: 2px solid cornflowerblue;
-    background: transparent;
+    background:transparent;
     color: white;
     border-radius: 5px;
     font-size: 1rem;
@@ -202,7 +203,7 @@ input{
     border: 2px solid #000;
     border-bottom: 2px solid cornflowerblue;
     background: white;
-    color: rgb(0 , 0, 0);
+    color: rgb(0, 0, 0);
     border-radius: 5px;
     font-size: 1rem;
     outline: none;
